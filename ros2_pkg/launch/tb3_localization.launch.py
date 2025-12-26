@@ -51,8 +51,8 @@ def generate_launch_description():
 
     pure_node = Node(
         package='ros2_pkg',
-        executable='pure_pursuit_param',
-        name='pure_pursuit_param',
+        executable='pure',
+        name='pure',
         output='screen'
     )
 

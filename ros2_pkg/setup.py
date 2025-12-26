@@ -33,7 +33,8 @@ setup(
             'img_publisher_node = ros2_pkg.img_publisher_node:main',
             'img_subscriber_node = ros2_pkg.img_subscriber_node:main',
             'PurePursuit = ros2_pkg.pure_pursuit:main',
-            'pure_pursuit_param = ros2_pkg.pure_pursuit_param:main'
+            'pure_pursuit_param = ros2_pkg.pure_pursuit_param:main',
+            'pure = ros2_pkg.pure:main'
         ],
     },
 )
